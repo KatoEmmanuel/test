@@ -1,0 +1,112 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family:'josefin Sans',sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    
+}
+.hero{
+    height: 200vh;
+    width:100%;
+    background-color: black;
+
+}
+.hero img{
+    height: 10px;
+    width: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left:8%;
+    padding-right: 8%
+}
+.logo{
+    color: blanchedalmond;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:#f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color:#f9004d;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: transform .4 s;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 25px;
+} 
+footer{
+    position: ;
+    width:100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+footer p:nth-child(1){
+   font-size: 30px;
+   color: white;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+footer p:nth-child(2){
+   color: white;
+   font-size:17px ;
+   width: 500px;
+   text-align: center;
+   line-height: 26px;
+}
+.social{
+   display:flex;
+   gap:2rem;
+    
+}
+.social a{
+   width: 45px;
+   height: 45px;
+   font-size: 40px;
+   color: #f9004d;
+   display: flex;
+   border-radius: 50%;
+   margin:22px 10px;
+   display: inline;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+}
+.social a:hover{
+   transform: scale(1,1);
+}
+.p1{
+    color: white; 
+    font-size: 30px;
+    width: 900px;
+    margin-left: 90px;
+}
